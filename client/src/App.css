@@ -1,0 +1,47 @@
+.App {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(148, 175, 180);
+}
+
+.navbar {
+  background-color: rgb(13, 130, 9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links .nav-link {
+  margin-right: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-input {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 40px;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+  height: 100px;
+}
+#dashboard{
+   background-color: rgb(204, 231, 226);
+   border-radius: 20px;
+}
+
+.btn{
+  height:35px;
+  margin: 3px 5px;
+}
+.navbar{
+  align-items: center;
+  justify-content: center;
+}
