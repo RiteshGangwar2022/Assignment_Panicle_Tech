@@ -37,7 +37,7 @@ const Home = () => {
       0
     );
     const avgSalary = totalSalary / totalEmp;
-    createDashboardChart(totalEmp, avgSalary);
+    createdashboardChart(totalEmp, avgSalary);
     createPieChart(data);
   }, [data]);
 
@@ -45,7 +45,7 @@ const Home = () => {
   {
     /*to create dashboard */
   }
-  const createDashboardChart = (totalEmp, avgSalary) => {
+  const createdashboardChart = (totalEmp, avgSalary) => {
     if (dashboardRef.current) {
       dashboardRef.current.destroy();
     }
@@ -163,12 +163,12 @@ const Home = () => {
       </div>
       <div className="row mt-4">
         <div className="col-md-6 p-5">
-          <h3>Dashboard</h3>
+          <h3>dashboard</h3>
           <canvas id="dashboard" width="60px" height="30px"></canvas>
         </div>
         <div className="col-md-6 p-5">
           <h3>Distribution by Department</h3>
-          <canvas id="PieChart" width="20px" height="10px"></canvas>
+          <canvas id="PieChart" width="20px" height="13px"></canvas>
         </div>
       </div>
     </div>
